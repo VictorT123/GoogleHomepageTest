@@ -129,12 +129,14 @@ a:hover {
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 100px 100px 100px 1fr 1fr 1fr 110px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 300px 300px 200px 1fr 1fr 1fr;
     grid-template-rows: 30px 50px;
     grid-template-areas: 
     "france . . . . . . . ."
     "a-propos publicité entreprise fonctionnement carbone info-conso confidentialité condition paramètres";
     background-color: #F2F2F2;
+    width: 100%;
+    height: 70px;
 }
 
 #France {
